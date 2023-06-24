@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: #1f1e1e;
   color: white;
+  overflow: scroll;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: center;
+  
 }
+
+.add-task-form {
+  margin-bottom: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  
+}
+
+.add-task-form input,
+.add-task-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.add-task-form button {
+  
+  align-content: center;
+  width: 103%;
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  margin-left: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.task-list li.completed {
+  background-color: #207317;
+}
+
+.task-details {
+  flex-grow: 1;
+}
+
+.task-details h3 {
+  margin: 0;
+}
+
+.task-actions button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.task-actions button:hover {
+  background-color: #c82333;
+}
+
+.task-actions input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+.task-details p {
+  margin: 5px 0;
+}
+
