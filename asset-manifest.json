@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/doday/static/css/main.4cefeb0a.css",
+    "main.js": "/doday/static/js/main.c098778e.js",
+    "static/js/787.7a774231.chunk.js": "/doday/static/js/787.7a774231.chunk.js",
+    "index.html": "/doday/index.html",
+    "main.4cefeb0a.css.map": "/doday/static/css/main.4cefeb0a.css.map",
+    "main.c098778e.js.map": "/doday/static/js/main.c098778e.js.map",
+    "787.7a774231.chunk.js.map": "/doday/static/js/787.7a774231.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cefeb0a.css",
+    "static/js/main.c098778e.js"
+  ]
+}
